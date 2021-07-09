@@ -1,0 +1,79 @@
+body {
+    background-color: #353b48;
+    color: #f5f6fa;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+#body-bg {
+    background-image: url("../img/morp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+nav {
+    background: #44bd32;
+    margin: 30px;
+    border-radius: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    align-items: center;
+}
+
+#anasayfa {
+    margin-left: 20px;
+}
+
+#iletisim {
+    margin-right: 20px;
+}
+
+#anasayfa a:hover, #iletisim a:hover {
+    color:#353b48;
+}
+
+article {
+    background: #273c75;
+    border-radius: 10px;
+    border: 10px solid white;
+    margin: 30px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main img {
+    margin: 30px;
+    height: 300px;
+}
+
+#bottom-2 {
+    margin: 30px;
+}
+
+#bottom-1 li {
+    color: red;
+}
+
+#bottom-2 li {
+    color: blue;
+    text-align: right;
+}
