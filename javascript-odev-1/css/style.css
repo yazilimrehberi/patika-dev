@@ -1,0 +1,13 @@
+body {
+    color: #e98208;
+    font-size: 30px;
+}
+
+.img-size {
+    height: 70px;
+    width: 350px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
