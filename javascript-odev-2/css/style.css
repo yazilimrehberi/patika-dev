@@ -1,0 +1,38 @@
+.bg-orange {
+    background-color: #f78501;
+}
+
+.close {
+    background: #f3f3f3;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.close:hover {
+    background:#f78501;
+    cursor: pointer;
+    color: #fff;
+}
+
+#my-ul li {
+    cursor: pointer;
+}
+
+.li-click {
+    background-color: rgb(39, 102, 120);
+    color: #fff;
+    text-decoration: line-through;
+}
+.li-click:hover {
+    background-color: rgb(39, 102, 120);
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.span-click {
+    background-color: #f78501;
+    color: #fff;
+}
+.span-click:hover {
+    background: #f3f3f3;
+    color: #495057;
+}
