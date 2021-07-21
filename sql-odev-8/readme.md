@@ -1,9 +1,9 @@
-* ```CREATE TABLE employee (
+* `CREATE TABLE employee (
   	id INTEGER,
   	name VARCHAR(50),
   	birthday DATE,
   	email VARCHAR(100)
-  );```
+  );`
 
 * ```insert into MOCK_DATA (id, name, birthday, email) values (1, 'Minor', '5/15/2021', 'mgrisbrook0@chicagotribune.com');
   insert into MOCK_DATA (id, name, birthday, email) values (2, 'Tina', '2/13/2021', 'tpetrazzi1@cisco.com');
