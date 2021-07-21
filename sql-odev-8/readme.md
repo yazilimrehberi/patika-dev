@@ -1,12 +1,14 @@
-* 
-```CREATE TABLE employee (
+* ```
+CREATE TABLE employee (
    id INTEGER,
    name VARCHAR(50),
    birthday DATE,
    email VARCHAR(100)
-);```
+);
+```
 
-* ``` insert into MOCK_DATA (id, name, birthday, email) values (1, 'Minor', '5/15/2021', 'mgrisbrook0@chicagotribune.com');
+* ```
+  insert into MOCK_DATA (id, name, birthday, email) values (1, 'Minor', '5/15/2021', 'mgrisbrook0@chicagotribune.com');
   insert into MOCK_DATA (id, name, birthday, email) values (2, 'Tina', '2/13/2021', 'tpetrazzi1@cisco.com');
   insert into MOCK_DATA (id, name, birthday, email) values (3, 'Chelsae', '6/3/2021', 'cmaitland2@163.com');
   insert into MOCK_DATA (id, name, birthday, email) values (4, 'Jeanie', '9/29/2020', 'jamis3@printfriendly.com');
@@ -55,17 +57,21 @@
   insert into MOCK_DATA (id, name, birthday, email) values (47, 'Carlynn', '11/8/2020', 'cmuxworthy1a@nature.com');
   insert into MOCK_DATA (id, name, birthday, email) values (48, 'Rodolphe', '2/21/2021', 'rcolbeck1b@cpanel.net');
   insert into MOCK_DATA (id, name, birthday, email) values (49, 'Carlene', '9/24/2020', 'chuckerby1c@sina.com.cn');
-  insert into MOCK_DATA (id, name, birthday, email) values (50, 'Tuck', '12/13/2020', 'tdeares1d@foxnews.com');```
+  insert into MOCK_DATA (id, name, birthday, email) values (50, 'Tuck', '12/13/2020', 'tdeares1d@foxnews.com');
+  ```
   
-* ```UPDATE Employee SET name = 'Jack' WHERE id = 1;
+* ```
+  UPDATE Employee SET name = 'Jack' WHERE id = 1;
   UPDATE Employee SET email = 'Jackturner@ggmail.com' WHERE name = 'Jack';
   UPDATE Employee SET birthday = '01/01/1991' WHERE email = 'Jackturner@ggmail.com';
   UPDATE Employee SET id= '2' WHERE birthday = '01/01/1991';
-  UPDATE Employee SET name = 'Old Jack' WHERE id = 1;```
+  UPDATE Employee SET name = 'Old Jack' WHERE id = 1;
+  ```
 
-* 
-```DELETE FROM Employee WHERE id = '1';
+* ```
+  DELETE FROM Employee WHERE id = '1';
   DELETE FROM Employee WHERE name = 'Minor';
   DELETE FROM Employee WHERE birthday = '5/15/2021';
   DELETE FROM Employee WHERE email = 'mgrisbrook0@chicagotribune.com';
-  DELETE FROM Employee WHERE id = '2';```
+  DELETE FROM Employee WHERE id = '2';
+  ```
