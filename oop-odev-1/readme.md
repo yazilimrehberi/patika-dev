@@ -1,0 +1,1 @@
+![draw.io](C:\Users\Oguzhan\Desktop\Ödevler\oop-odev-1\draw.io.png)
