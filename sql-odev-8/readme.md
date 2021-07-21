@@ -56,11 +56,11 @@
   insert into MOCK_DATA (id, name, birthday, email) values (49, 'Carlene', '9/24/2020', 'chuckerby1c@sina.com.cn');
   insert into MOCK_DATA (id, name, birthday, email) values (50, 'Tuck', '12/13/2020', 'tdeares1d@foxnews.com');```
 
-* UPDATE Employee SET name = 'Jack' WHERE id = 1;
-  UPDATE Employee SET email = 'Jackturner@ggmail.com' WHERE name = 'Jack';
-  UPDATE Employee SET birthday = '01/01/1991' WHERE email = 'Jackturner@ggmail.com';
-  UPDATE Employee SET id= '2' WHERE birthday = '01/01/1991';
-  UPDATE Employee SET name = 'Old Jack' WHERE id = 1;
+* `UPDATE Employee SET name = 'Jack' WHERE id = 1;
+UPDATE Employee SET email = 'Jackturner@ggmail.com' WHERE name = 'Jack';
+UPDATE Employee SET birthday = '01/01/1991' WHERE email = 'Jackturner@ggmail.com';
+UPDATE Employee SET id= '2' WHERE birthday = '01/01/1991';
+UPDATE Employee SET name = 'Old Jack' WHERE id = 1;`
 
 * DELETE FROM Employee WHERE id = '1';
 
