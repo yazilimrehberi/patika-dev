@@ -60,7 +60,7 @@
   UPDATE Employee SET email = 'Jackturner@ggmail.com' WHERE name = 'Jack';
   UPDATE Employee SET birthday = '01/01/1991' WHERE email = 'Jackturner@ggmail.com';
   UPDATE Employee SET id= '2' WHERE birthday = '01/01/1991';
-  UPDATE Employee SET name = 'Old Jack' WHERE id = 1;```
+  UPDATE Employee SET name = 'Old Jack' WHERE id = 1;
 
 * DELETE FROM Employee WHERE id = '1';
 
