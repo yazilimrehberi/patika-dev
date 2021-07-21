@@ -1,9 +1,10 @@
-* ```CREATE TABLE employee (
-  	id INTEGER,
-  	name VARCHAR(50),
-  	birthday DATE,
-  	email VARCHAR(100)
-  );```
+* 
+```CREATE TABLE employee (
+   id INTEGER,
+   name VARCHAR(50),
+   birthday DATE,
+   email VARCHAR(100)
+);```
 
 * ``` insert into MOCK_DATA (id, name, birthday, email) values (1, 'Minor', '5/15/2021', 'mgrisbrook0@chicagotribune.com');
   insert into MOCK_DATA (id, name, birthday, email) values (2, 'Tina', '2/13/2021', 'tpetrazzi1@cisco.com');
@@ -62,12 +63,9 @@
   UPDATE Employee SET id= '2' WHERE birthday = '01/01/1991';
   UPDATE Employee SET name = 'Old Jack' WHERE id = 1;```
 
-* ```DELETE FROM Employee WHERE id = '1';
-
+* 
+```DELETE FROM Employee WHERE id = '1';
   DELETE FROM Employee WHERE name = 'Minor';
-
   DELETE FROM Employee WHERE birthday = '5/15/2021';
-
   DELETE FROM Employee WHERE email = 'mgrisbrook0@chicagotribune.com';
-
   DELETE FROM Employee WHERE id = '2';```
