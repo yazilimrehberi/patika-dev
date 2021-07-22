@@ -1,4 +1,3 @@
-* 
 ```sql
 CREATE TABLE employee (
 	id INTEGER,
@@ -7,8 +6,7 @@ CREATE TABLE employee (
 	email VARCHAR(100)
 );
 ```
-
-* 
+ 
 ```sql
 insert into MOCK_DATA (id, name, birthday, email) values (2, 'Tina', '2/13/2021', 'tpetrazzi1@cisco.com');
 insert into MOCK_DATA (id, name, birthday, email) values (3, 'Chelsae', '6/3/2021', 'cmaitland2@163.com');
@@ -61,7 +59,6 @@ insert into MOCK_DATA (id, name, birthday, email) values (49, 'Carlene', '9/24/2
 insert into MOCK_DATA (id, name, birthday, email) values (50, 'Tuck', '12/13/2020', 'tdeares1d@foxnews.com');
 ```
 
-* 
 ```sql
 UPDATE Employee SET name = 'Jack' WHERE id = 1;
 UPDATE Employee SET email = 'Jackturner@ggmail.com' WHERE name = 'Jack';
@@ -70,7 +67,6 @@ UPDATE Employee SET id= '2' WHERE birthday = '01/01/1991';
 UPDATE Employee SET name = 'Old Jack' WHERE id = 1;
 ```
 
-* 
 ```sql
 DELETE FROM Employee WHERE id = '1';
 DELETE FROM Employee WHERE name = 'Minor';
