@@ -36,7 +36,7 @@
    );
    ```
 
-5. ```
+   ```
    (
    SELECT first_name FROM actor
    )
@@ -46,7 +46,7 @@
    );
    ```
 
-6. ```
+   ```
    (
    SELECT first_name FROM actor
    )
