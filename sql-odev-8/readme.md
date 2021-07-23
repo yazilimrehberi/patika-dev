@@ -5,7 +5,6 @@ CREATE TABLE employee (
 	birthday DATE,
 	email VARCHAR(100)
 );
-```
  
 2. ```sql
 insert into MOCK_DATA (id, name, birthday, email) values (2, 'Tina', '2/13/2021', 'tpetrazzi1@cisco.com');
