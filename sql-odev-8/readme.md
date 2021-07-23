@@ -1,4 +1,4 @@
-```sql
+```
 CREATE TABLE employee (
 	id INTEGER,
 	name VARCHAR(50),
@@ -6,7 +6,7 @@ CREATE TABLE employee (
 	email VARCHAR(100)
 );```
  
-```sql
+```
 insert into MOCK_DATA (id, name, birthday, email) values (2, 'Tina', '2/13/2021', 'tpetrazzi1@cisco.com');
 insert into MOCK_DATA (id, name, birthday, email) values (3, 'Chelsae', '6/3/2021', 'cmaitland2@163.com');
 insert into MOCK_DATA (id, name, birthday, email) values (4, 'Jeanie', '9/29/2020', 'jamis3@printfriendly.com');
@@ -58,7 +58,7 @@ insert into MOCK_DATA (id, name, birthday, email) values (49, 'Carlene', '9/24/2
 insert into MOCK_DATA (id, name, birthday, email) values (50, 'Tuck', '12/13/2020', 'tdeares1d@foxnews.com');
 ```
 
-```sql
+```
 UPDATE Employee SET name = 'Jack' WHERE id = 1;
 UPDATE Employee SET email = 'Jackturner@ggmail.com' WHERE name = 'Jack';
 UPDATE Employee SET birthday = '01/01/1991' WHERE email = 'Jackturner@ggmail.com';
