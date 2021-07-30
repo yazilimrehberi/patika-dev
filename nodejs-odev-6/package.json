@@ -1,0 +1,19 @@
+{
+  "name": "koa-web-sunucusu",
+  "version": "1.0.0",
+  "description": "KoaJS ile Web Sunucusu Ödevi",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "KoaJS",
+    "Web",
+    "Sunucusu"
+  ],
+  "author": "Oğuzhan",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.1"
+  }
+}
